@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+:root {
+    --primary-color: #185ADB;
+}
+body{
+    background-color: #EFEFEF;
+    color: var(--primary-color);
+    padding-top: 1rem;
+    font-family: 'Raleway',sans-serif;
+    margin: 0;
+}
+.container{
+    padding: 1em;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    width: 40vw;
+    border-radius: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.change-table{
+    max-width: 40vw;
+    word-wrap: break-word;
+}
+#check-btn{
+    margin: 0.5em auto;
+    width: 5em;
+    height: 2em;
+    border-style: none;
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 2em;
+    font-size: large;
+
+}
+
+.foot-text {
+    text-align: center;
+    margin: 1em auto;
+}
+
+table,th,td{
+    border: solid 2px var(--primary-color);
+    border-collapse: collapse;
+    padding: 0.2em;
+}
+.heading {
+    font-weight: bold;
+}
+
+.input-label{
+    margin: 0.5em auto;
+    font-weight: bold;
+}
+input{
+    width: 20vw;
+    height: 5vh;
+    margin-left: 25%;
+    border: 4px solid var(--primary-color);
+    border-radius: 0.8em;
+    outline: #fff;
+    padding: 0.5em 1em;
+}
+
+input:focus {
+    border-color: var(--primary-color);
+
+}
+
+p{
+    margin: 0.3em auto;
+    word-wrap: break-word;
+}
