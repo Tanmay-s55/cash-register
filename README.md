@@ -4,4 +4,5 @@ Part of neogCamp's level zero challenges.
 
 ## How to use:
 Enter the bill amount & cash amount you have & click on Check
+<br>
 Output will be shown below the check button
